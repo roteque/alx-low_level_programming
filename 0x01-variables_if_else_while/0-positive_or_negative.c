@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - A program to test numbers
- * return 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
