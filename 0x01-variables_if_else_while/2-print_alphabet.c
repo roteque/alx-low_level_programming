@@ -9,14 +9,13 @@ int main(void)
 	char Upper = 'A';
 	while (Lower <= 'z')
 	{
-		putchar(Lower);
+		putchar('\n');
 		Lower++;
 	}
 	while (Upper <= 'Z')
 	{
-		putchar(Upper);
+		putchar('\n');
 		Upper++;
 	}
-	putchar('\n');
 	return (0);
 }
