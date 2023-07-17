@@ -4,7 +4,7 @@
 #include <time.h>
 /**
  * main - A program that prints all lower case alphabet except q and e
- * Return: Always 0 (Succes)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 
 	for (p = 0; p <= 98; p++)
 	{
-	for (q = p + 1; q <= 98; q++)
+	for (q = p + 1; q <= 99 q++)
 	{
 	putchar((p / 10) + '0');
 	putchar((p % 10) + '0');
