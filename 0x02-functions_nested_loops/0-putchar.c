@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <main.h>
+#include <time.h>
 /**
- * main - A program that prints _putchar using putchar function
- * Return: Always 0 (Succes)
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	char i = "putchar";
 
-	putchar(i);
+printf("_putchar\n");
+
 return (0);
 }
