@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <main.h>
 /**
  * main - A program that prints _putchar using putchar function
  * Return: Always 0 (Succes)
