@@ -2,11 +2,12 @@
 #define LIST_H
 
 
-typedef struct listint_t /*Defining node atr
+typedef struct listint_t 
+/*Defining node atr
 ucture*/
 {
 	int n;
-	struct listint_t *next;             
+	struct listint_t *next;
 }listint_t;
 
 size_t print_listint(const listint_t *h);
@@ -21,4 +22,4 @@ int sum_listint(listint_t *head);
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 
-#endif 
+#endif
