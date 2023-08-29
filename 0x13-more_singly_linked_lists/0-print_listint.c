@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "list.h"
+#include "lists.h"
 
 /**
  * print_listint - a funtion that prints all element of a listint_t data
@@ -9,26 +9,16 @@
  *
  * Return: the number of nodes.
  */
-
 size_t print_listint(const listint_t *h)
-
 {
+ size_t counter = 0;
 
-	size_t count = 0;
+ while (h)
+ {
+ printf("%d\n", h->n);
+ counter++;
+ h = h->next;
+ }
 
-
-	while (h)
-
-	{
-
-		printf("%d\n", h->n);
-
-		count++;
-
-		h = h->next;
-
-	}
-
-	return (count);
-
+ return (counter);
 }
