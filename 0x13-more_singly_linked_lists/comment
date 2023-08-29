@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "lists.h"
+
+/**
+ * print_listint - a funtion that prints all element of a listint_t data
+ * @h: pointer to current node
+ * @next -  pointer to next node
+ *
+ * Return: the number of nodes.
+ */
